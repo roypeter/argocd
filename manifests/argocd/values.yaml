@@ -1,4 +1,7 @@
 argo-cd:
+  global:
+    image:
+      tag: "v2.5.2"
   notifications:
     argocdUrl: "https://localhost:8080"
     notifiers:
