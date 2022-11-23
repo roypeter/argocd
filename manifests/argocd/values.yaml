@@ -4,7 +4,7 @@ argo-cd:
     notifiers:
       service.slack: |
         token: $slack-token
-    subscriptions: |
+    subscriptions:
       - recipients:
         - slack:argocd-alerts
         triggers:
