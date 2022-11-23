@@ -10,7 +10,7 @@ spec:
   source:
     path: environment/test-01/argocd-apps
     repoURL: 'https://github.com/roypeter/argocd.git'
-    targetRevision: master
+    targetRevision: main
   project: default
   syncPolicy:
     syncOptions:
